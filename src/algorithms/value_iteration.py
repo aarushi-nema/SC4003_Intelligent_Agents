@@ -3,7 +3,7 @@ Value iteration algorithm implementation.
 """
 import copy
 from src.core.utility import Utility
-from src.utils.constants import NUM_COLS, NUM_ROWS, DISCOUNT, EPSILON
+from src.utils.config import NUM_COLS, NUM_ROWS, DISCOUNT, EPSILON
 from src.utils.utility_manager import UtilityManager
 from src.utils.display_manager import DisplayManager
 from src.utils.file_manager import FileManager

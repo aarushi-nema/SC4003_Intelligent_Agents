@@ -5,7 +5,7 @@ import os
 import csv
 import pandas as pd
 import matplotlib.pyplot as plt
-from src.utils.constants import NUM_COLS, NUM_ROWS
+from src.utils.config import NUM_COLS, NUM_ROWS
 
 class FileManager:
     """

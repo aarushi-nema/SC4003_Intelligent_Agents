@@ -1,11 +1,11 @@
 """
-Utility manager for MDP algorithms.
+Fixed utility manager for MDP algorithms.
 """
 import copy
 import numpy as np
 from src.core.actions import Action
 from src.core.utility import Utility
-from src.utils.constants import NUM_COLS, NUM_ROWS, PROB_INTENT, PROB_LEFT, PROB_RIGHT, DISCOUNT, K
+from src.utils.config import NUM_COLS, NUM_ROWS, PROB_INTENT, PROB_LEFT, PROB_RIGHT, DISCOUNT, K
 
 class UtilityManager:
     """
@@ -122,14 +122,16 @@ class UtilityManager:
         """
         action_up_utility = 0.0
         
-        # Intends to move up
+        # Intends to move up (80% probability)
         action_up_utility += PROB_INTENT * UtilityManager.move_up(col, row, curr_util_arr, grid)
         
-        # Intends to move up, but moves right instead
-        action_up_utility += PROB_RIGHT * UtilityManager.move_right(col, row, curr_util_arr, grid)
-        
-        # Intends to move up, but moves left instead
+        # Intends to move up, but moves left instead (10% probability)
+        # Note: When facing up, left is to the west
         action_up_utility += PROB_LEFT * UtilityManager.move_left(col, row, curr_util_arr, grid)
+        
+        # Intends to move up, but moves right instead (10% probability)
+        # Note: When facing up, right is to the east
+        action_up_utility += PROB_RIGHT * UtilityManager.move_right(col, row, curr_util_arr, grid)
         
         # Final utility
         action_up_utility = grid[col][row].get_reward() + DISCOUNT * action_up_utility
@@ -152,14 +154,16 @@ class UtilityManager:
         """
         action_down_utility = 0.0
         
-        # Intends to move down
+        # Intends to move down (80% probability)
         action_down_utility += PROB_INTENT * UtilityManager.move_down(col, row, curr_util_arr, grid)
         
-        # Intends to move down, but moves left instead
-        action_down_utility += PROB_LEFT * UtilityManager.move_left(col, row, curr_util_arr, grid)
+        # Intends to move down, but moves right instead (10% probability)
+        # Note: When facing down, right is to the west
+        action_down_utility += PROB_LEFT * UtilityManager.move_right(col, row, curr_util_arr, grid)
         
-        # Intends to move down, but moves right instead
-        action_down_utility += PROB_RIGHT * UtilityManager.move_right(col, row, curr_util_arr, grid)
+        # Intends to move down, but moves left instead (10% probability)
+        # Note: When facing down, left is to the east
+        action_down_utility += PROB_RIGHT * UtilityManager.move_left(col, row, curr_util_arr, grid)
         
         # Final utility
         action_down_utility = grid[col][row].get_reward() + DISCOUNT * action_down_utility
@@ -182,14 +186,16 @@ class UtilityManager:
         """
         action_left_utility = 0.0
         
-        # Intends to move left
+        # Intends to move left (80% probability)
         action_left_utility += PROB_INTENT * UtilityManager.move_left(col, row, curr_util_arr, grid)
         
-        # Intends to move left, but moves up instead
-        action_left_utility += PROB_RIGHT * UtilityManager.move_up(col, row, curr_util_arr, grid)
-        
-        # Intends to move left, but moves down instead
+        # Intends to move left, but moves down instead (10% probability)
+        # Note: When facing left, left is to the south
         action_left_utility += PROB_LEFT * UtilityManager.move_down(col, row, curr_util_arr, grid)
+        
+        # Intends to move left, but moves up instead (10% probability)
+        # Note: When facing left, right is to the north
+        action_left_utility += PROB_RIGHT * UtilityManager.move_up(col, row, curr_util_arr, grid)
         
         # Final utility
         action_left_utility = grid[col][row].get_reward() + DISCOUNT * action_left_utility
@@ -212,14 +218,16 @@ class UtilityManager:
         """
         action_right_utility = 0.0
         
-        # Intends to move right
+        # Intends to move right (80% probability)
         action_right_utility += PROB_INTENT * UtilityManager.move_right(col, row, curr_util_arr, grid)
         
-        # Intends to move right, but moves down instead
-        action_right_utility += PROB_RIGHT * UtilityManager.move_down(col, row, curr_util_arr, grid)
-        
-        # Intends to move right, but moves up instead
+        # Intends to move right, but moves up instead (10% probability)
+        # Note: When facing right, left is to the north
         action_right_utility += PROB_LEFT * UtilityManager.move_up(col, row, curr_util_arr, grid)
+        
+        # Intends to move right, but moves down instead (10% probability)
+        # Note: When facing right, right is to the south
+        action_right_utility += PROB_RIGHT * UtilityManager.move_down(col, row, curr_util_arr, grid)
         
         # Final utility
         action_right_utility = grid[col][row].get_reward() + DISCOUNT * action_right_utility

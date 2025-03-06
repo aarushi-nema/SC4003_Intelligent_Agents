@@ -3,7 +3,7 @@ Grid environment implementation.
 """
 import numpy as np
 from src.core.state import State
-from src.utils.constants import (
+from src.utils.config import (
     NUM_COLS, NUM_ROWS, WHITE_REWARD, GREEN_REWARD, 
     BROWN_REWARD, WALL_REWARD, GREEN_SQUARES, BROWN_SQUARES, WALLS_SQUARES
 )
@@ -19,17 +19,8 @@ class GridEnvironment:
         # Initialize grid with State objects
         self.grid = [[State(WHITE_REWARD) for _ in range(NUM_ROWS)] for _ in range(NUM_COLS)]
         self.build_grid()
-        self.duplicate_grid()
-        
-    def get_grid(self):
-        """
-        Returns the actual grid.
-        
-        Returns:
-            list: A 2D list of State objects.
-        """
-        return self.grid
-    
+        # self.duplicate_grid()
+
     def build_grid(self):
         """
         Initialize the Grid Environment with rewards and walls.
@@ -46,6 +37,15 @@ class GridEnvironment:
         for col, row in WALLS_SQUARES:
             self.grid[col][row].set_reward(WALL_REWARD)
             self.grid[col][row].set_as_wall(True)
+        
+    def get_grid(self):
+        """
+        Returns the actual grid.
+        
+        Returns:
+            list: A 2D list of State objects.
+        """
+        return self.grid
             
     def duplicate_grid(self):
         """

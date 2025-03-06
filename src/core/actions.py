@@ -15,7 +15,7 @@ class Action(Enum):
     
     def __str__(self):
         """String representation of an action."""
-        from src.utils.constants import ACTION_SYMBOLS
+        from src.utils.config import ACTION_SYMBOLS
         return ACTION_SYMBOLS[self.value]
     
     @staticmethod

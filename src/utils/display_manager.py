@@ -1,7 +1,7 @@
 """
 Display manager for visualization.
 """
-from src.utils.constants import (
+from src.utils.config import (
     NUM_COLS, NUM_ROWS, AGENT_START_COL, AGENT_START_ROW,
     WHITE_REWARD, DISCOUNT, EPSILON, K
 )
