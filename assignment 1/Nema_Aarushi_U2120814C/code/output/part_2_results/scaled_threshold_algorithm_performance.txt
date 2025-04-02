@@ -1,0 +1,79 @@
+
+-----------------------------------------------------------------------
+
+6x6 Grid
+***** Value Iteration ***** 
+----- Time Elapsed ----- 
+Time: 1.2745s
+---- Total Iteration Count -----
+Iterations: 1273
+
+***** Policy Iteration ***** 
+----- Time Elapsed ----- 
+Time: 0.1600s
+---- Total Iteration Count -----
+Iterations: 4
+
+-----------------------------------------------------------------------
+
+10x10 Grid
+***** Value Iteration ***** 
+----- Time Elapsed ----- 
+Time: 3.7661s
+---- Total Iteration Count -----
+Iterations: 1372
+
+***** Policy Iteration ***** 
+----- Time Elapsed ----- 
+Time: 1.2420s
+---- Total Iteration Count -----
+Iterations: 11
+
+-----------------------------------------------------------------------
+
+20x20 Grid
+***** Value Iteration ***** 
+----- Time Elapsed ----- 
+Time: 16.9321s
+---- Total Iteration Count -----
+Iterations: 1513
+
+***** Policy Iteration ***** 
+----- Time Elapsed ----- 
+Time: 5.1073s
+---- Total Iteration Count -----
+Iterations: 11
+
+-----------------------------------------------------------------------
+
+50x50 Grid
+***** Value Iteration ***** 
+----- Time Elapsed ----- 
+Time: 137.6840s
+---- Total Iteration Count -----
+Iterations: 1695
+
+***** Policy Iteration ***** 
+----- Time Elapsed ----- 
+Time: 46.9469s
+---- Total Iteration Count -----
+Iterations: 14
+
+-----------------------------------------------------------------------
+
+100x100 Grid
+***** Value Iteration ***** 
+----- Time Elapsed ----- 
+Time: 618.4540s
+---- Total Iteration Count -----
+Iterations: 1833
+
+***** Policy Iteration ***** 
+----- Time Elapsed ----- 
+Time: 212.0392s
+---- Total Iteration Count -----
+Iterations: 16
+
+-----------------------------------------------------------------------
+
+500x500 Grid

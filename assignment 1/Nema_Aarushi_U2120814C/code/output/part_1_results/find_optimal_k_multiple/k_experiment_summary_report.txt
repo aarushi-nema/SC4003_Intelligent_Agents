@@ -1,0 +1,41 @@
+==================================================
+K-Value Experiment for Policy Iteration (10 runs per K value)
+==================================================
+
+For K=25
+# of iterations = 4 to 10
+Average utility = 83.47 to 93.04
+Maximum Utility = 90.33 to 99.96
+Time to converge: 0.16 to 0.40 seconds
+
+For K=50
+# of iterations = 4 to 9
+Average utility = 86.92 to 92.92
+Maximum Utility = 93.78 to 99.85
+Time to converge: 0.16 to 0.37 seconds
+
+For K=75
+# of iterations = 6 to 8
+Average utility = 91.29 to 92.99
+Maximum Utility = 98.22 to 99.91
+Time to converge: 0.24 to 0.33 seconds
+
+For K=100
+# of iterations = 6 to 8
+Average utility = 91.67 to 92.90
+Maximum Utility = 98.60 to 99.78
+Time to converge: 0.24 to 0.34 seconds
+
+For K=125
+# of iterations = 5 to 7
+Average utility = 90.41 to 92.47
+Maximum Utility = 97.33 to 99.40
+Time to converge: 0.20 to 0.29 seconds
+
+==================================================
+Overall Recommendation
+==================================================
+
+Based on average maximum utility across 10 runs:
+Recommended K value: 100
+Average maximum utility: 99.4364

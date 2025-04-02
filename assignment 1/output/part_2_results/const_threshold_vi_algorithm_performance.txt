@@ -1,0 +1,49 @@
+
+-----------------------------------------------------------------------
+
+6x6 Grid
+***** Value Iteration ***** 
+----- Time Elapsed ----- 
+Time: 0.7337s
+---- Total Iteration Count -----
+Iterations: 757
+
+-----------------------------------------------------------------------
+
+10x10 Grid
+***** Value Iteration ***** 
+----- Time Elapsed ----- 
+Time: 2.0043s
+---- Total Iteration Count -----
+Iterations: 754
+
+-----------------------------------------------------------------------
+
+20x20 Grid
+***** Value Iteration ***** 
+----- Time Elapsed ----- 
+Time: 8.5390s
+---- Total Iteration Count -----
+Iterations: 757
+
+-----------------------------------------------------------------------
+
+50x50 Grid
+***** Value Iteration ***** 
+----- Time Elapsed ----- 
+Time: 55.6186s
+---- Total Iteration Count -----
+Iterations: 757
+
+-----------------------------------------------------------------------
+
+100x100 Grid
+***** Value Iteration ***** 
+----- Time Elapsed ----- 
+Time: 234.1372s
+---- Total Iteration Count -----
+Iterations: 757
+
+-----------------------------------------------------------------------
+
+500x500 Grid
