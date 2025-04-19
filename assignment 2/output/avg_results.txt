@@ -1,0 +1,19 @@
+========== Ranking Probabilities ==========
+1st: 57.8%
+2nd: 24.0%
+3rd: 16.3%
+Top 3: 98.1%
+
+Table 7: Results for the finale tournament conducted 1000 times
+
++-------------------------+---------------+
+|         Agent          |     Score     |
++-------------------------+---------------+
+| Nema_Aarushi_Player     | 167.911331    |
+| TolerantPlayer          | 163.878235    |
+| T4TPlayer               | 163.672974    |
+| NicePlayer              | 151.973816    |
+| FreakyPlayer            | 146.815247    |
+| NastyPlayer             | 141.451889    |
+| RandomPlayer            | 137.243927    |
++-------------------------+---------------+

@@ -1,0 +1,18 @@
+FINAL RESULTS (Average of 5 tournaments):
+=================================================
+ 1. Nema_Aarushi_Player           : 724.18 points
+ 2. ThresholdTolerancePlayer      : 721.17 points
+ 3. UnforgivingPlayer             : 711.06 points
+ 4. ReconciliationPlayer          : 707.85 points
+ 5. TolerantPlayer                : 705.20 points
+ 6. ConditionalReconciliationPlayer: 704.61 points
+ 7. T4TPlayer                     : 697.63 points
+ 8. ConsensusBasedPlayer          : 671.16 points
+ 9. PeacemakerPlayer              : 664.98 points
+10. FiniteCooperationPlayer       : 625.81 points
+11. NicePlayer                    : 624.63 points
+12. FreakyPlayer                  : 567.55 points
+13. DistrustfulMimicPlayer        : 535.96 points
+14. NastyPlayer                   : 520.82 points
+15. PatternSwitchPlayer           : 449.28 points
+16. RandomPlayer                  : 446.08 points
