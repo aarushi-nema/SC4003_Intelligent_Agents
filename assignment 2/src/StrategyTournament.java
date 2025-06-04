@@ -58,6 +58,8 @@ public class StrategyTournament {
         
         // Compare against Nema_Aarushi_Player specifically
         compareToNemaPlayer(playerNames, avgScores);
+
+        // GameTheoryAnalyzer.analyze();
     }
     
     // Implementation of runTournamentAndGetScores

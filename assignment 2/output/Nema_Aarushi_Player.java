@@ -3,11 +3,10 @@ class Nema_Aarushi_Player extends Player {
     private static final int COOPERATE = 0;
     private static final int DEFECT = 1;
     
-    // Core strategy parameters - SIMPLIFIED approach
+    // Core strategy parameters
     private static final int BETRAYAL_THRESHOLD = 10;     // Match threshold of top performer
     private static final int ENDGAME_THRESHOLD = 95;      // Very late endgame (only last ~15 rounds)
     
-    // Tracking variables
     private int totalDefectionsObserved = 0;
     private boolean inRetaliationMode = false;
     private int consecutiveCooperationCount = 0;
@@ -23,12 +22,10 @@ class Nema_Aarushi_Player extends Player {
         // Update our tracking variables
         updateStats(n, oppHistory1, oppHistory2);
         
-        // Very late endgame strategy (simpler)
+        // Very late endgame strategy
         if (n >= ENDGAME_THRESHOLD) {
             return endgameStrategy(n);
         }
-        
-        // Main strategy logic - based on top performers
         
         // If in retaliation mode, check if we can exit based on consecutive cooperation
         if (inRetaliationMode) {
@@ -112,7 +109,6 @@ class Nema_Aarushi_Player extends Player {
     private int endgameStrategy(int n) {
         int remainingRounds = 110 - n; // Assuming ~110 rounds total
         
-        // Very simple endgame: 
         // - Always defect in final 5 rounds
         // - For rounds 6-15 from the end, defect every other round
         if (remainingRounds <= 5) {

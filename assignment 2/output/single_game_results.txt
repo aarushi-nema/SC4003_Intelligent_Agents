@@ -1,0 +1,94 @@
+    (base) PS C:\Users\Aarushi\Desktop\SC4003_Intelligent_Agents\assignment 2\src> java .\ThreePrisonersDilemma.java 
+    NicePlayer scored 6.0 points, NicePlayer scored 6.0 points, and NicePlayer scored 6.0 points.
+    NicePlayer scored 3.0 points, NicePlayer scored 3.0 points, and NastyPlayer scored 8.0 points.
+    NicePlayer scored 4.5288463 points, NicePlayer scored 4.5288463 points, and RandomPlayer scored 6.980769 points.
+    NicePlayer scored 6.0 points, NicePlayer scored 6.0 points, and TolerantPlayer scored 6.0 points.
+    NicePlayer scored 6.0 points, NicePlayer scored 6.0 points, and FreakyPlayer scored 6.0 points.
+    NicePlayer scored 6.0 points, NicePlayer scored 6.0 points, and T4TPlayer scored 6.0 points.
+    NicePlayer scored 5.7272725 points, NicePlayer scored 5.7272725 points, and Nema_Aarushi_Player scored 6.181818 points.
+    NicePlayer scored 0.0 points, NastyPlayer scored 5.0 points, and NastyPlayer scored 5.0 points.
+    NicePlayer scored 1.7282609 points, NastyPlayer scored 6.728261 points, and RandomPlayer scored 3.847826 points.
+    NicePlayer scored 3.0 points, NastyPlayer scored 8.0 points, and TolerantPlayer scored 3.0 points.
+    NicePlayer scored 0.0 points, NastyPlayer scored 5.0 points, and FreakyPlayer scored 5.0 points.
+    NicePlayer scored 1.75 points, NastyPlayer scored 6.75 points, and T4TPlayer scored 3.8333333 points.
+    NicePlayer scored 0.20588236 points, NastyPlayer scored 5.2058825 points, and Nema_Aarushi_Player scored 4.8627453 points.
+    NicePlayer scored 2.8469388 points, RandomPlayer scored 5.1938777 points, and RandomPlayer scored 5.755102 points.
+    NicePlayer scored 4.542056 points, RandomPlayer scored 6.9719625 points, and TolerantPlayer scored 4.542056 points.
+    NicePlayer scored 1.4859813 points, RandomPlayer scored 4.009346 points, and FreakyPlayer scored 6.4859815 points.
+    NicePlayer scored 3.8653846 points, RandomPlayer scored 6.3653846 points, and T4TPlayer scored 4.923077 points.
+    NicePlayer scored 2.125 points, RandomPlayer scored 4.6770835 points, and Nema_Aarushi_Player scored 6.03125 points.
+    NicePlayer scored 6.0 points, TolerantPlayer scored 6.0 points, and TolerantPlayer scored 6.0 points.
+    NicePlayer scored 3.0 points, TolerantPlayer scored 3.0 points, and FreakyPlayer scored 8.0 points.
+    NicePlayer scored 6.0 points, TolerantPlayer scored 6.0 points, and T4TPlayer scored 6.0 points.
+    NicePlayer scored 5.7522936 points, TolerantPlayer scored 5.7522936 points, and Nema_Aarushi_Player scored 6.165138 points.
+    NicePlayer scored 6.0 points, FreakyPlayer scored 6.0 points, and FreakyPlayer scored 6.0 points.
+    NicePlayer scored 6.0 points, FreakyPlayer scored 6.0 points, and T4TPlayer scored 6.0 points.
+    NicePlayer scored 5.8834953 points, FreakyPlayer scored 5.8834953 points, and Nema_Aarushi_Player scored 6.07767 points.
+    NicePlayer scored 6.0 points, T4TPlayer scored 6.0 points, and T4TPlayer scored 6.0 points.
+    NicePlayer scored 6.0 points, T4TPlayer scored 6.0 points, and Nema_Aarushi_Player scored 6.0 points.
+    NicePlayer scored 6.0 points, Nema_Aarushi_Player scored 6.0 points, and Nema_Aarushi_Player scored 6.0 points.
+    NastyPlayer scored 2.0 points, NastyPlayer scored 2.0 points, and NastyPlayer scored 2.0 points.
+    NastyPlayer scored 3.3263159 points, NastyPlayer scored 3.3263159 points, and RandomPlayer scored 1.1157895 points.
+    NastyPlayer scored 2.027523 points, NastyPlayer scored 2.027523 points, and TolerantPlayer scored 1.9816514 points.
+    NastyPlayer scored 2.0 points, NastyPlayer scored 2.0 points, and FreakyPlayer scored 2.0 points.
+    NastyPlayer scored 2.03 points, NastyPlayer scored 2.03 points, and T4TPlayer scored 1.98 points.
+    NastyPlayer scored 2.145631 points, NastyPlayer scored 2.145631 points, and Nema_Aarushi_Player scored 1.9029126 points.
+    NastyPlayer scored 5.2201834 points, RandomPlayer scored 2.3302753 points, and RandomPlayer scored 2.7431192 points.
+    NastyPlayer scored 3.598131 points, RandomPlayer scored 1.0280374 points, and TolerantPlayer scored 3.504673 points.
+    NastyPlayer scored 6.59633 points, RandomPlayer scored 3.9357798 points, and FreakyPlayer scored 1.5963303 points.
+    NastyPlayer scored 4.0454545 points, RandomPlayer scored 1.5454545 points, and T4TPlayer scored 3.1363637 points.
+    NastyPlayer scored 3.5154638 points, RandomPlayer scored 1.1443299 points, and Nema_Aarushi_Player scored 3.3608248 points.
+    NastyPlayer scored 8.0 points, TolerantPlayer scored 3.0 points, and TolerantPlayer scored 3.0 points.
+    NastyPlayer scored 8.0 points, TolerantPlayer scored 3.0 points, and FreakyPlayer scored 3.0 points.
+    NastyPlayer scored 2.1090908 points, TolerantPlayer scored 2.0181818 points, and T4TPlayer scored 2.0181818 points.
+    NastyPlayer scored 2.3203883 points, TolerantPlayer scored 2.1262136 points, and Nema_Aarushi_Player scored 1.9805825 points.
+    NastyPlayer scored 5.0 points, FreakyPlayer scored 5.0 points, and FreakyPlayer scored 0.0 points.
+    NastyPlayer scored 6.5326085 points, FreakyPlayer scored 1.5326087 points, and T4TPlayer scored 3.9782608 points.
+    NastyPlayer scored 2.0625 points, FreakyPlayer scored 2.0625 points, and Nema_Aarushi_Player scored 1.9583334 points.
+    NastyPlayer scored 2.096774 points, T4TPlayer scored 1.9892473 points, and T4TPlayer scored 2.0430107 points.
+    NastyPlayer scored 2.1546392 points, T4TPlayer scored 2.0515463 points, and Nema_Aarushi_Player scored 2.0 points.
+    NastyPlayer scored 2.36 points, Nema_Aarushi_Player scored 2.06 points, and Nema_Aarushi_Player scored 2.06 points.
+    RandomPlayer scored 3.989796 points, RandomPlayer scored 4.397959 points, and RandomPlayer scored 3.9387755 points.
+    RandomPlayer scored 3.7029703 points, RandomPlayer scored 3.8514853 points, and TolerantPlayer scored 4.1485147 points.
+    RandomPlayer scored 2.6634614 points, RandomPlayer scored 2.3269231 points, and FreakyPlayer scored 4.9711537 points.
+    RandomPlayer scored 3.7916667 points, RandomPlayer scored 3.4270833 points, and T4TPlayer scored 3.9479167 points.
+    RandomPlayer scored 2.7692308 points, RandomPlayer scored 2.7142856 points, and Nema_Aarushi_Player scored 4.6923075 points.
+    RandomPlayer scored 6.8623853 points, TolerantPlayer scored 4.706422 points, and TolerantPlayer scored 4.706422 points.
+    RandomPlayer scored 6.9247313 points, TolerantPlayer scored 4.612903 points, and FreakyPlayer scored 4.612903 points.
+    RandomPlayer scored 1.8529412 points, TolerantPlayer scored 4.254902 points, and T4TPlayer scored 3.0294118 points.
+    RandomPlayer scored 3.0091743 points, TolerantPlayer scored 3.4220183 points, and Nema_Aarushi_Player scored 4.3394494 points.
+    RandomPlayer scored 3.990099 points, FreakyPlayer scored 6.5148516 points, and FreakyPlayer scored 1.5148515 points.
+    RandomPlayer scored 1.6168225 points, FreakyPlayer scored 4.46729 points, and T4TPlayer scored 3.2056074 points.
+    RandomPlayer scored 4.587629 points, FreakyPlayer scored 1.701031 points, and Nema_Aarushi_Player scored 5.9793816 points.
+    RandomPlayer scored 4.2916665 points, T4TPlayer scored 4.03125 points, and T4TPlayer scored 4.1354165 points.
+    RandomPlayer scored 2.3027523 points, T4TPlayer scored 3.082569 points, and Nema_Aarushi_Player scored 4.1376147 points.
+    RandomPlayer scored 1.2525252 points, Nema_Aarushi_Player scored 3.7272727 points, and Nema_Aarushi_Player scored 3.7272727 points.
+    TolerantPlayer scored 6.0 points, TolerantPlayer scored 6.0 points, and TolerantPlayer scored 6.0 points.
+    TolerantPlayer scored 6.0 points, TolerantPlayer scored 6.0 points, and FreakyPlayer scored 6.0 points.
+    TolerantPlayer scored 6.0 points, TolerantPlayer scored 6.0 points, and T4TPlayer scored 6.0 points.
+    TolerantPlayer scored 5.9693875 points, TolerantPlayer scored 5.9693875 points, and Nema_Aarushi_Player scored 6.020408 points.
+    TolerantPlayer scored 1.9789474 points, FreakyPlayer scored 2.031579 points, and FreakyPlayer scored 2.031579 points.
+    TolerantPlayer scored 6.0 points, FreakyPlayer scored 6.0 points, and T4TPlayer scored 6.0 points.
+    TolerantPlayer scored 6.0 points, FreakyPlayer scored 6.0 points, and Nema_Aarushi_Player scored 6.0 points.
+    TolerantPlayer scored 6.0 points, T4TPlayer scored 6.0 points, and T4TPlayer scored 6.0 points.
+    TolerantPlayer scored 5.691589 points, T4TPlayer scored 5.8785048 points, and Nema_Aarushi_Player scored 6.0186915 points.
+    TolerantPlayer scored 5.88 points, Nema_Aarushi_Player scored 5.98 points, and Nema_Aarushi_Player scored 5.98 points.
+    FreakyPlayer scored 5.0 points, FreakyPlayer scored 0.0 points, and FreakyPlayer scored 5.0 points.
+    FreakyPlayer scored 1.3125 points, FreakyPlayer scored 6.3125 points, and T4TPlayer scored 4.125 points.
+    FreakyPlayer scored 0.12371134 points, FreakyPlayer scored 5.123711 points, and Nema_Aarushi_Player scored 4.917526 points.
+    FreakyPlayer scored 6.0 points, T4TPlayer scored 6.0 points, and T4TPlayer scored 6.0 points.
+    FreakyPlayer scored 5.9690723 points, T4TPlayer scored 5.9690723 points, and Nema_Aarushi_Player scored 6.0206184 points.
+    FreakyPlayer scored 5.821782 points, Nema_Aarushi_Player scored 5.970297 points, and Nema_Aarushi_Player scored 5.970297 points.
+    T4TPlayer scored 6.0 points, T4TPlayer scored 6.0 points, and T4TPlayer scored 6.0 points.
+    T4TPlayer scored 6.0 points, T4TPlayer scored 6.0 points, and Nema_Aarushi_Player scored 6.0 points.
+    T4TPlayer scored 6.0 points, Nema_Aarushi_Player scored 6.0 points, and Nema_Aarushi_Player scored 6.0 points.
+    Nema_Aarushi_Player scored 5.919192 points, Nema_Aarushi_Player scored 5.919192 points, and Nema_Aarushi_Player scored 5.919192 points.     
+
+Tournament Results
+Nema_Aarushi_Player: 177.87997 points.
+T4TPlayer: 171.35774 points.
+TolerantPlayer: 170.26556 points.
+NicePlayer: 158.69754 points.
+FreakyPlayer: 151.06944 points.
+NastyPlayer: 142.35464 points.
+RandomPlayer: 131.9085 points.`

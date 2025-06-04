@@ -45,6 +45,8 @@ public class OptimizeStrategy {
 			return result.substring(result.indexOf('$')+1);
 		}
 	}
+
+    
 	
 	/* Here are four simple strategies: */
 	

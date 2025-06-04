@@ -17,3 +17,4 @@ Table 7: Results for the finale tournament conducted 1000 times
 | NastyPlayer             | 141.451889    |
 | RandomPlayer            | 137.243927    |
 +-------------------------+---------------+
+
